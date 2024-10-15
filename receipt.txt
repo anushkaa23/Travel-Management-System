@@ -1,0 +1,11 @@
+---- ABC Travel Agency -----
+---------- Receipt --------- 
+Customer Id: 75
+
+Description		 Total 
+Hotel cost: 10000.00
+Tavel (Cab) cost: 375.00
+_____________________________
+Total charge :		10375.00
+_____________________________
+-------- THANK YOU ----------

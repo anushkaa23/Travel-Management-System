@@ -1,0 +1,8 @@
+
+Customer ID: 75
+Name: anushka
+Age: 21
+Gender: female
+Address: silchar , assam 
+Mobile No: 0987654321
+-------------------------
