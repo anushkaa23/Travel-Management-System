@@ -2,6 +2,7 @@
 #include <fstream>    // To handle file system
 #include <iomanip>    // For showing floating point values
 #include <windows.h>  // For system-specific functions (optional, depending on usage)
+using namespace std;
 void menu();
 
 class ManageMenu{
@@ -9,14 +10,13 @@ class ManageMenu{
         string userName;
     public:
         ManageMenu(){
-            cout<<"\n\n\n\n\n\n\\tEnter your name to continue as an Admin: ";
-            cin.ignore();
-            getline(cin , userName);
+            cout << "\n\n\n\n\n\n\tEnter your name to continue as an Admin: ";
+            getline(cin , userName); 
             system("cls");
-            menu();
+            menu(); // Call menu after clearing the screen
         }
 
-        ~ManageMenu(){}
+        ~ManageMenu() {}
 };
 
 using namespace std;
@@ -153,7 +153,7 @@ class Cabs{
                 menu();
                 
             }
-            cout<<"\nPress any key to redirect Main Menu :";
+            cout<<"\nPress 1 to redirect Main Menu :";
             cin>>hireCab;
             system("cls");
             if(hireCab== 1){
@@ -176,7 +176,7 @@ class Booking{
                 cout<<a+1<<". Hotel "<<hotelNo[a]<<endl;
             }
             cout<<"\nCurrently we collaborated with above hotels!"<<endl;
-            cout<< "Press any key to back or\nEnter number of hotel you want to book:";
+            cout<< "Press 1 to back or\nEnter number of hotel you want to book:";
             cin>>choiceHotel;
             system("cls");
 
@@ -216,7 +216,7 @@ class Booking{
                     hotels();
                 }
                 int gotoMenu;
-                cout<<"\nPress any key to redirect to main menu:"<<endl;
+                cout<<"\nPress 1 to redirect to main menu:"<<endl;
                 cin>>gotoMenu;
                 if(gotoMenu== 1){
                     menu();
@@ -260,7 +260,7 @@ class Booking{
                     hotels();
                 }
                 int gotoMenu;
-                cout<<"\nPress any key to redirect to main menu:"<<endl;
+                cout<<"\nPress 1 to redirect to main menu:"<<endl;
                 cin>>gotoMenu;
                 if(gotoMenu== 1){
                     menu();
@@ -305,7 +305,7 @@ class Booking{
                     hotels();
                 }
                 int gotoMenu;
-                cout<<"\nPress any key to redirect to main menu:"<<endl;
+                cout<<"\nPress 1 to redirect to main menu:"<<endl;
                 cin>>gotoMenu;
                 if(gotoMenu == 1){
                     menu();
@@ -360,7 +360,7 @@ class Charges : public Booking , public Cabs , public Customers{
     int gotoMenu;
     cout<<"\t\t      *ABC Travels * \n"<<endl;
     cout<<"------------------ Main Menu ------------------"<<endl;
-    cout<<"_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _"<<endl;
+    cout<<"_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ "<<endl;
     cout<<"\t|\t\t\t\t\t|"<<endl;
     cout<<"\t|\tCustomer Management -> 1\t|"<<endl;
     cout<<"\t|\tCabs Management     -> 2\t|"<<endl;
@@ -368,7 +368,7 @@ class Charges : public Booking , public Cabs , public Customers{
     cout<<"\t|\tCharges & Bills     -> 4\t|"<<endl;
     cout<<"\t|\tExit                -> 5\t|"<<endl;
     cout<<"\t|\t\t\t\t\t|"<<endl;
-    cout<<"_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _"<<endl;
+    cout<<"_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ "<<endl;
 
     cout<<"\nEnter you choice:";
     cin>>mainChoice;
@@ -397,7 +397,7 @@ class Charges : public Booking , public Cabs , public Customers{
             system("cls");
             menu();
         }
-        cout <<"\nPress any key to redirect to main menu"<<endl;
+        cout <<"\nPress 1 to redirect to main menu"<<endl;
         cin>>gotoMenu;
         system("cls");
         if(gotoMenu==1){
@@ -425,7 +425,7 @@ class Charges : public Booking , public Cabs , public Customers{
         if(gotoMenu==1){
             system("cls");
             c4.showBill();
-            cout<<"\nPress any key to redirect to main menu"<<endl;
+            cout<<"\nPress 1 to redirect to main menu"<<endl;
             cin>>gotoMenu;
             system("cls");
             if(gotoMenu==1){
