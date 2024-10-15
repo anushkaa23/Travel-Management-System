@@ -1,0 +1,175 @@
+ 
+
+
+
+
+		Enter your name to continue as an Admin: anushka raj
+
+                      *ABC Travels *
+
+------------------ Main Menu ------------------
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+        |                                       |
+        |       Customer Management -> 1        |
+        |       Cabs Management     -> 2        |
+        |       Bookings Management -> 3        |
+        |       Charges & Bills     -> 4        |
+        |       Exit                -> 5        |
+        |                                       |
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Enter you choice: 1
+
+-------Customers-------
+
+1. Enter New Customer
+2. See Old Customers
+
+Enter Choice: 1
+
+Enter Customer ID: 75
+Enter Customer Name: anushka
+Enter Customer age: 21
+Enter Customer mobile number: 0987654321
+Enter Customer address: silchar , assam
+Enter Customer gender: female
+
+SAVED
+NOTE: We saved your details record for future purposes.
+
+
+Press 1 to redirect to main menu
+
+		*ABC Travels *
+
+------------------ Main Menu ------------------
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+        |                                       |
+        |       Customer Management -> 1        |
+        |       Cabs Management     -> 2        |
+        |       Bookings Management -> 3        |
+        |       Charges & Bills     -> 4        |
+        |       Exit                -> 5        |
+        |                                       |
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Enter your choice: 2
+We collaborated with the fastest , safest , and smartest cab services around the country
+--------------------------------------- ABC CABS ---------------------------------------
+1. Rent a Standard Cab - Rs.15 for 1KM
+2. Rent a luxury cab - Rs.25 for 1KM
+
+To calculate the cost for your journey:
+Enter which kind of cab you need:
+1
+Enter kilometers you have to travel :
+15
+
+Your tour cost is 225 rupees for a Standard Cab
+Press 1 to hire this cab: or
+Press 2 to select another cab: 2
+
+We collaborated with the fastest , safest , and smartest cab services around the country
+--------------------------------------- ABC CABS ---------------------------------------
+1. Rent a Standard Cab - Rs.15 for 1KM
+2. Rent a luxury cab - Rs.25 for 1KM
+
+To calculate the cost for your journey:
+Enter which kind of cab you need:
+2
+Enter kilometers you have to travel :
+15
+
+Your tour cost is 375 rupees for a Luxury Cab
+Press 1 to hire this cab: or Press 2 to select another cab:
+1
+You successfully hired a Luxury cab...
+ Goto Menu and take the receipt
+
+Press 1 to redirect Main Menu : 1
+		*ABC Travels *
+
+------------------ Main Menu ------------------
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+        |                                       |
+        |       Customer Management -> 1        |
+        |       Cabs Management     -> 2        |
+        |       Bookings Management -> 3        |
+        |       Charges & Bills     -> 4        |
+        |       Exit                -> 5        |
+        |                                       |
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Enter you choice: 3
+--> Book a Luxury Hotel Using the System <--
+1. Hotel Pacific
+2. Hotel Avendra
+3. Hotel ElephantBay
+
+Currently we collaborated with above hotels!
+Press 1 to back or
+Enter number of hotel you want to book:1
+------- WELCOME TO HOTEL PACIFIC -------
+
+The Garden , food and beverage . Enjoy all you can drink , Stay cool and get chilled in summer sun.
+Packages offered by Pacific:
+
+1. Standard Pack
+        All basic facilities you need just for : Rs. 5000.00
+2. Premium Pack
+        Enjoy Premium : Rs. 10000.00
+3. Luxury Pack
+        Live a Luxury at Pacific : Rs. 15000.00
+
+Press another key to back or
+ Enter Package Number you want to book:
+2
+You have successfully booked Premium Pack at Pacific.
+Goto Menu and take the receipt
+
+Press 1 to redirect to main menu:
+1
+*ABC Travels *
+
+------------------ Main Menu ------------------
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+        |                                       |
+        |       Customer Management -> 1        |
+        |       Cabs Management     -> 2        |
+        |       Bookings Management -> 3        |
+        |       Charges & Bills     -> 4        |
+        |       Exit                -> 5        |
+        |                                       |
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Enter you choice: 4
+--> Get Your Receipt <--
+Your Receipt is already printed ,  You can get it from file path
+To display your receipt on the screen  enter 1:
+Or Enter another key to go back in main menu
+---- ABC Travel Agency -----
+---------- Receipt ---------
+Customer Id: 75
+
+Description              Total
+Hotel cost: 10000.00
+Tavel (Cab) cost: 375.00
+_____________________________
+Total charge :          10375.00
+_____________________________
+-------- THANK YOU ----------
+
+
+Press 1 to redirect to main menu:
+1
+		 *ABC Travels *
+
+------------------ Main Menu ------------------
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+        |                                       |
+        |       Customer Management -> 1        |
+        |       Cabs Management     -> 2        |
+        |       Bookings Management -> 3        |
+        |       Charges & Bills     -> 4        |
+        |       Exit                -> 5        |
+        |                                       |
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Enter you choice:6
+---GOOD-BYE---
